@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-      const iframe = document.getElementById("youtubeVideo");
+      const iframe = document.getElementById("youtubeVideo", "youtubeVideo");
 
       const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
